@@ -1,0 +1,88 @@
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0; 
+    background-color: #2A272A;
+    font-family: sans-serif;
+    color: white;
+}
+
+.header, .dic, .textbar, .form {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+input[type="text"] {
+    opacity: 1;
+    border: none;
+    outline: none;
+    width: 190px;
+    padding: 13px 18px;
+    margin: 30px 0 0;
+    font-size: 15px;
+    border-radius: 100px;
+    background: #3c3c3c;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    
+    padding: 20px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #666;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+input[type="radio"]:checked {
+    background-color: #7f4d3e61;
+     
+}
+
+select {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background-color: #71878D; 
+    background-position: right 8px top 50%;
+}
+
+input[type="submit"]{
+    
+        color: #969696;
+        opacity: 1;
+        border: none;
+        outline: none;
+        width: 300px;
+        margin: 50px 0px 0px ;
+        height: 60px;
+        border-radius: 20px;
+        font-size: 32px;
+        background-color: #3c3c3c;
+        
+
+}
+
+
+input[type="submit"]:hover {
+    background-color: #3c3c3cb9 ;
+}
